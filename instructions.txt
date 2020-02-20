@@ -1,0 +1,25 @@
+Snake2 instruction and documentation file
+Author: Miro Miettinen, 272673, miro.miettinen@tuni.fi
+
+Ohjeet:
+- Matoa liikutellaan näppäimillä W, A, S ja D 
+- Vaikeutta ja kentän koka voi säätää nimetyistä valintapainikkeista silloin kun peli ei ole käynnissä
+	-Mitä vaikeammalla peli, sitä enemmän madon liike nopeutuu pelin edetessä (easylla aina sama nopeus)
+-Peli käynnistyy play-napista, tauottuu pause-napista, nollautuu restart-napista ja sulkeutuu quit-napista
+
+Rules:
+- Mato kasvaa aina yhden palikan verran syödessä
+- Madon vauhti kiihtyy jokaisen syönnin jälkeen, jos vaikeustaso joku muu kuin easy
+- Mato voi kuolla seuraavista syistä
+	    # Törmäys seinään
+	    # Törmäys omaan itseensä
+- Pelaaja voittaa, kun mato täyttää koko pelialueen
+
+Pakollisten ominaisuuksien lisäksi toteutetut ominaisuudet:
+- Mato ei liiku aina samalla nopeudella, vaan liikkuminen nopeutuu pelin edetessä. 
+- Pelissä on eri vaikeustasoja, joista käyttäjä voi valita. 
+- Pelaaja pystyy määrittämään pelialueen leveyden ja korkeuden. 
+- Pelissä on Pause-nappula, jolla pelin voi tauottaa. 
+- Pelissä on Restart-nappula, jolla pelin voi aloittaa uudelleen. 
+- Pelin ohjeet (esimerkiksi madon liikuttamiseen) esitetään popup-ikkunassa tai jotenkin muuten pelin aikana. (Tiedosto instructions.txt pitää tästä huolimatta löytyä palautuksesta.) 
+
